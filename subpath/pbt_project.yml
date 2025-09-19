@@ -1,0 +1,82 @@
+name: ruthie.gutkowski
+description: demand-driven
+version: 0.0.1
+author: qbdofmbe.vb5df81f@j4idwpmr.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-09-19 23:26:23'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: null
+    author: qbdofmbe.vb5df81f@j4idwpmr.com
+    files:
+    - model.sql
+    - .prophecy/ide/model.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-09-19 23:26:24'
+sqlSnapshots:
+  .prophecy/metadata/sqlsnapshots/snapshot:
+    name: snapshot
+    schema: null
+    description: snapshot desc
+    author: qbdofmbe.vb5df81f@j4idwpmr.com
+    files:
+    - snapshot.sql
+    - .prophecy/ide/snapshot.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-09-19 23:26:24'
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: qbdofmbe.vb5df81f@j4idwpmr.com
+    files:
+    - macros.sql
+    - .prophecy/ide/macros.json
+    createdAt: '2025-09-19 23:26:24'
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: qbdofmbe.vb5df81f@j4idwpmr.com
+  createdAt: '2025-09-19 23:26:23'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
